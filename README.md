@@ -47,7 +47,7 @@ Successfully deployed a Cowrie SSH honeypot on Ubuntu Server to simulate a vulne
 
 ---
 
-## Demonstration of Successful Honeypot Compromise
+## Validating Setup with a Successful Demonstration of Honeypot Compromise
 
 
 ## Lab Environment
