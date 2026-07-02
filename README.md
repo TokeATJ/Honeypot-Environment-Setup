@@ -1,7 +1,7 @@
 ## System Preparation
 
 ## Cowrie Honeypot Deployment
-Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linux system. Successful logins are accepted to encourage attacker interaction and generate valuable threat intelligence.
+Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linux system. Successful logins are accepted to encourage attacker interaction and generate valuable threat intelligence. A honeypot is not designed to block attacks—it is designed to make them visible.
 
 Successfully deployed a Cowrie SSH honeypot on Ubuntu Server to simulate a vulnerable SSH service and collect attacker telemetry.
 
@@ -100,7 +100,30 @@ These events confirm the attacker progressed beyond authentication and was grant
 
 ---
 
-
 <img width="1098" height="270" alt="image" src="https://github.com/user-attachments/assets/102232d2-5b32-401d-b411-0f3ecb962eba" />
 
+## MITRE ATT&CK Mapping
 
+### Initial Access
+
+**T1078.001 – Valid Accounts: Default Accounts**
+
+The attacker authenticated using common credentials (`root/password`) and gained access to the honeypot.
+
+### Execution
+
+**T1059.004 – Command and Scripting Interpreter: Unix Shell**
+
+A simulated Linux shell was provided following successful authentication.
+
+### Discovery
+
+**T1082 – System Information Discovery**
+
+Attackers commonly perform system reconnaissance immediately after obtaining shell access.
+
+### Discovery
+
+**T1083 – File and Directory Discovery**
+
+Attackers frequently enumerate files and directories to understand the target environment.
