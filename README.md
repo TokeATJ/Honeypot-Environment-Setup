@@ -12,9 +12,9 @@ Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linu
 
 <img width="648" height="260" alt="image" src="https://github.com/user-attachments/assets/24816f0e-2cfe-40ad-9de8-7e31e5e56983" />
 
-**Intstalled Cowrie from github repository**
+**Validated Python configuration and intstalled Cowrie from github repository**
 
-<img width="624" height="383" alt="image" src="https://github.com/user-attachments/assets/a76f7bb8-cddb-4493-8c7a-f4b7b289d6bb" />
+<img width="980" height="649" alt="image" src="https://github.com/user-attachments/assets/35cd7bbb-94b9-4dc9-9fbf-28c12c42318c" />
 
 **Validated Cowrie successfully installed on port 2222**
 
