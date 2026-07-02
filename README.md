@@ -2,7 +2,7 @@
 
 
 ## Cowrie Honeypot Deployment
-Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linux system. Successful logins are accepted to encourage attacker interaction and generate valuable threat intelligence. A honeypot is not designed to block attacks—it is designed to make them visible. A ***few high level steps*** have been highlighted below to capture to progression of the server build below: 
+Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linux system. Successful logins are accepted to encourage attacker interaction and generate valuable threat intelligence. A honeypot is not designed to block attacks—it is designed to make them visible. A ***few high level steps*** have been highlighted below to capture the progression of the server build below: 
 
 ---
 
