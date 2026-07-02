@@ -10,7 +10,7 @@ Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linu
 
 **Configured Python virtual environment**
 
-<img width="624" height="166" alt="image" src="https://github.com/user-attachments/assets/69a185fb-75fe-4445-803a-20f60ebcc942" />
+<img width="648" height="260" alt="image" src="https://github.com/user-attachments/assets/24816f0e-2cfe-40ad-9de8-7e31e5e56983" />
 
 **Intstalled Cowrie from github repository**
 
