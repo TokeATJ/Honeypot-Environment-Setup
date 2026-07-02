@@ -79,6 +79,9 @@ Password: password
 
 Cowrie intentionally accepted the credentials and presented a realistic Linux shell environment to encourage attacker interaction and collect post-authentication telemetry.
 
+
+<img width="807" height="473" alt="image" src="https://github.com/user-attachments/assets/9e4ff6bf-7602-4ca3-be87-b4d6ee134afe" />
+
 ---
 
 ## Authentication Event Captured
