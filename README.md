@@ -1,18 +1,28 @@
 ## System Preparation
 
 ## Cowrie Honeypot Deployment
-Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linux system. Successful logins are accepted to encourage attacker interaction and generate valuable threat intelligence. A honeypot is not designed to block attacks—it is designed to make them visible.
+Unlike a traditional SSH server, Cowrie intentionally emulates a vulnerable Linux system. Successful logins are accepted to encourage attacker interaction and generate valuable threat intelligence. A honeypot is not designed to block attacks—it is designed to make them visible. A few high level steps have been highlighted below to capture to progression of the server.
 
-Successfully deployed a Cowrie SSH honeypot on Ubuntu Server to simulate a vulnerable SSH service and collect attacker telemetry.
 
-Before deploying the honeypot, a dedicated service account was created and granted administrative privileges. The Ubuntu host was renamed to `cowrie-honeypot` to separate it from the existing Splunk infrastructure and provide a clean environment for cyber deception activities.
+**Before deploying the honeypot, a dedicated service account was created and granted administrative privileges. The Ubuntu host was renamed to `cowrie-honeypot` to separate it from the existing Splunk infrastructure and provide a clean environment for cyber deception activities.**
 
 <img width="975" height="579" alt="image" src="https://github.com/user-attachments/assets/3f0e445f-272f-4838-a5f1-8af8146a29e6" />
 
-Validated Cowrie successfully installed on port 2222
+**Configured Python virtual environment**
+
+<img width="624" height="166" alt="image" src="https://github.com/user-attachments/assets/69a185fb-75fe-4445-803a-20f60ebcc942" />
+
+**Intstalled Cowrie from github repository**
+
+<img width="624" height="383" alt="image" src="https://github.com/user-attachments/assets/a76f7bb8-cddb-4493-8c7a-f4b7b289d6bb" />
+
+**Validated Cowrie successfully installed on port 2222**
 
 <img width="1365" height="879" alt="image" src="https://github.com/user-attachments/assets/1cae3772-8703-429b-9266-97ab5b3f9959" />
 
+## Outcome
+
+Successfully deployed a Cowrie SSH honeypot on Ubuntu Server to simulate a vulnerable SSH service and collect attacker telemetry.
 
 ### Key Activities
 
