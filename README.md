@@ -43,6 +43,7 @@ Successfully deployed a Cowrie SSH honeypot on Ubuntu Server to simulate a vulne
 - Cyber Deception Engineering
 - Troubleshooting & Configuration Management
 
+---
 
 ## Demonstration of Successful Honeypot Compromise
 
