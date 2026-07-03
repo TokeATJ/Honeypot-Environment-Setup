@@ -69,7 +69,7 @@ Using the Kali Linux attacker machine, an SSH connection was initiated to the Co
 
 ```bash
 ssh root@10.0.2.5 -p 2222
-
+```
 <img width="685" height="385" alt="image" src="https://github.com/user-attachments/assets/b57dc531-b22f-4b70-87dd-46555f9c57f0" />
 
 The attacker attempted authentication using commonly abused credentials:
